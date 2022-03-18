@@ -1,4 +1,4 @@
-def hello(name):
+def hello(name) -> str:
     return f"Cześć {name}"
 
 def dodaj() -> float:
