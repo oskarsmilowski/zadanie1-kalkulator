@@ -22,9 +22,11 @@ def main():
     print("Wybierz co chcesz zrobić?\n 1 - Dodaj dwie liczby \n 2 - Odejmij dwie liczby \n 9 - Zakończ")
     wybor = int(input())
     if wybor == 1:
-        dodaj()
+        wynik = dodaj()
+        print(f"Wynik to: {wynik}")
     elif wybor == 2:
-        odejmij()
+        wynik = odejmij()
+        print(f"Wynik to: {wynik}")
     elif wybor == 9:
         return
     else:
