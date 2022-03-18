@@ -1,5 +1,5 @@
 def hello(name):
-    return f"Hello {name}"
+    return f"Cześć {name}"
 
 def dodaj() -> float:
     print('Podaj pierwszą liczbę:')
@@ -28,10 +28,10 @@ def main():
         wynik = odejmij()
         print(f"Wynik to: {wynik}")
     elif wybor == 9:
-        return
+        return 0
     else:
         print("Nieprawidłowy wybór")
-        return
+        return 1
 
 
 if __name__ == '__main__':
