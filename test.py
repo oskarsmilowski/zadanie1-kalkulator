@@ -8,7 +8,15 @@ def main():
     print(hello(imie))
     print("Wybierz co chcesz zrobić?\n 1 - Dodaj dwie liczby \n 2 - Odejmij dwie liczby \n 9 - Zakończ")
     wybor = input()
-    print(f"Twój wybór: {wybor}")
+    if wybor == 1:
+        dodaj()
+    elif wybor == 2:
+        odejmij()
+    elif wybor == 9:
+        return
+    else:
+        print("Nieprawidłowy wybór")
+        return
 
 
 if __name__ == '__main__':
